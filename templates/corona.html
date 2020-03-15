@@ -1,0 +1,28 @@
+<!-- https://getbootstrap.com/docs/3.3/components/ -->
+{% extends "base.html" %}
+
+{% block title %}Corona Dashboard - Nevaan Perera{% endblock %}
+
+{% block page_content %}
+<!--  -->
+<div class="row">
+    <!-- Cases -->
+    <div class="col-sm-6 col-md-4">
+        <div class="caption alert alert-info">
+            <h3>Cases: {{ data['cases'] }}</h3>
+          </div>
+    </div>
+    <!-- Recovered -->
+    <div class="col-sm-6 col-md-4">
+        <div class="caption alert alert-success">
+            <h3>Recovered: {{ data['recovered'] }}</h3>
+        </div>
+    </div>
+    <!-- Deaths -->
+    <div class="col-sm-6 col-md-4">
+        <div class="caption alert alert-danger">
+            <h3>Deaths: {{ data['deaths'] }}</h3>
+          </div>
+      </div>
+  </div>
+{% endblock %}
