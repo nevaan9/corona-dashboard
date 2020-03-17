@@ -1,0 +1,12 @@
+https://covid.ourworldindata.org/data/full_data.csv
+https://www.cdc.gov/coronavirus/2019-ncov/map-data-cases.csv
+
+Total confirmed cases: https://covid.ourworldindata.org/data/total_cases.csv
+Total deaths: https://covid.ourworldindata.org/data/total_deaths.csv
+New confirmed cases: https://covid.ourworldindata.org/data/new_cases.csv
+New deaths: https://covid.ourworldindata.org/data/new_deaths.csv
+Full dataset: https://covid.ourworldindata.org/data/full_data.csv
+
+https://rapidapi.com/
+
+https://bing.com/covid/data?IG=5B98CCBD3D004FF88C29FCE9263E152D

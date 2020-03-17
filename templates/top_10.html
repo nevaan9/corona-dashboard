@@ -1,0 +1,22 @@
+<!-- https://getbootstrap.com/docs/3.3/components/ -->
+{% extends "base.html" %}
+
+{% block title %}Corona Dashboard - Nevaan Perera{% endblock %}
+
+{% block page_content %}
+<!--  -->
+<div>
+    <div class="row">
+        <h4>Top ten deaths</h4>
+        <img src="/static/top_10/deaths.png" alt="top 10 deaths">
+    </div>
+    <div class="row">
+        <h4>Top ten cases</h4>
+        <img src="/static/top_10/cases.png" alt="top 10 cases">
+    </div>
+    <div class="row">
+        <h4>Top ten recovered</h4>
+        <img src="/static/top_10/total_recovered.png" alt="top 10 recovered">
+    </div>
+</div>
+{% endblock %}

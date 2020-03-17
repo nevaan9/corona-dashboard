@@ -12,6 +12,8 @@ flask-bootstrap = "*"
 requests = "*"
 pandas = "*"
 gunicorn = "*"
+locale = "*"
+matplotlib = "*"
 
 [requires]
 python_version = "3.8"
