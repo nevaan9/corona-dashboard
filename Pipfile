@@ -12,7 +12,6 @@ flask-bootstrap = "*"
 requests = "*"
 pandas = "*"
 gunicorn = "*"
-locale = "*"
 matplotlib = "*"
 
 [requires]
