@@ -13,6 +13,8 @@ requests = "*"
 pandas = "*"
 gunicorn = "*"
 matplotlib = "*"
+bokeh = "*"
+flask-cors = "*"
 
 [requires]
 python_version = "3.8"
